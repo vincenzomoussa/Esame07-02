@@ -112,7 +112,6 @@ class MyGallery extends Component {
           {this.state.loading.isLoading === false && (
             <Carousel
               responsive={responsive}
-              // sliderClass="carousel-item-padding-40-px"
               infinite={false}
               keyBoardControl={true}
               customTransition="transform 500ms ease-in-out"

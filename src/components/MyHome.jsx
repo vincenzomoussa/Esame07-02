@@ -50,7 +50,7 @@ class MyHome extends Component {
         {/* SERVE PER CREARE UN CAROSELLO DINAMICO IN BASE ALLA SCRITTURA DI UNA PAROLA CHIAVE  
           FUNZIONA SOLO SE SI PREME IL TASTO BOTTONE SEARCH*/}
         <SearchCarousel />
-        {/* QUESTA SEZIONE AVRA' al suo interno le tre gallerie che riceveranno come props cosa cercare */}
+        {/* QUESTA SEZIONE AVRA' al suo interno le tre gallerie che riceveranno come props cosa cercare (research)*/}
         <h3 className=" text-light">Fast & Furious!</h3>
         <MyGallery research="Fast" />
         <h3 className=" text-light">Harry Potter!</h3>

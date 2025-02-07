@@ -49,7 +49,7 @@ const MyNavbar = function () {
                               height="30"
                               className="me-4"
                             />
-                            Epicoder #1
+                            Vincent
                           </NavDropdown.Item>
                           <NavDropdown.Item>Manage profiles</NavDropdown.Item>
                           <NavDropdown.Item>Account</NavDropdown.Item>
