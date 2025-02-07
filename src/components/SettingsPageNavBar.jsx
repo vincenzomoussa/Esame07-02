@@ -5,7 +5,7 @@ const SettingsPageNavBar = function (props) {
     props.callbackDetailPage(page);
   }
   return (
-    <header className="container-fluid">
+    <header className="container-fluid" id="unicaNavBar">
       <Row>
         <Navbar variant="dark" expand="lg">
           <Container fluid>
@@ -17,7 +17,7 @@ const SettingsPageNavBar = function (props) {
               <Nav className="w-100 justify-content-between">
                 <div className="d-lg-flex">
                   <Nav.Item>
-                    <Nav.Link aria-current="page" active onClick={() => handlePage("main")}>
+                    <Nav.Link aria-current="page" onClick={() => handlePage("main")}>
                       Home
                     </Nav.Link>
                   </Nav.Item>
@@ -44,17 +44,7 @@ const SettingsPageNavBar = function (props) {
                           menuVariant="dark"
                           drop={"start"}
                         >
-                          <NavDropdown.Item onClick={() => handlePage("profile")}>
-                            <img
-                              src="/src/assets/img/avatar.png"
-                              alt="YourAvatar"
-                              width="30"
-                              height="30"
-                              className="me-4"
-                            />
-                            Vincent
-                          </NavDropdown.Item>
-                          <NavDropdown.Item onClick={() => handlePage("settings")}>Settings</NavDropdown.Item>
+                          <NavDropdown.Item onClick={() => handlePage("main")}>Home</NavDropdown.Item>
                           <NavDropdown.Item onClick={() => handlePage("profile")}>Account</NavDropdown.Item>
                           <NavDropdown.Item>Help Center</NavDropdown.Item>
                           <NavDropdown.Divider />

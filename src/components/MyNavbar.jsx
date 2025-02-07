@@ -44,16 +44,6 @@ const MyNavbar = function (props) {
                           menuVariant="dark"
                           drop={"start"}
                         >
-                          <NavDropdown.Item onClick={() => handlePage("profile")}>
-                            <img
-                              src="/src/assets/img/avatar.png"
-                              alt="YourAvatar"
-                              width="30"
-                              height="30"
-                              className="me-4"
-                            />
-                            Vincent
-                          </NavDropdown.Item>
                           <NavDropdown.Item onClick={() => handlePage("settings")}>Settings</NavDropdown.Item>
                           <NavDropdown.Item onClick={() => handlePage("profile")}>Account</NavDropdown.Item>
                           <NavDropdown.Item>Help Center</NavDropdown.Item>

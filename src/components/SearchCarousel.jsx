@@ -27,7 +27,7 @@ class SearchCarousel extends Component {
               <Button
                 type="Button"
                 variant="outline-secondary"
-                className="px-4 col-1"
+                className="px-4 col-1 me-3"
                 onClick={(e) => {
                   e.preventDefault();
                   this.setState({
@@ -40,9 +40,10 @@ class SearchCarousel extends Component {
                 <Search></Search>
               </Button>
               <Form.Control
+                placeholder="Cerca il nome del film..."
                 type="text"
                 value={this.state.filmResearch.search}
-                className="bg-dark border-0 text-light col"
+                className="border-0 text-dark col"
                 onChange={(e) => {
                   this.setState({
                     filmResearch: {

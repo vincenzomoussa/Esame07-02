@@ -13,6 +13,7 @@ class MyHome extends Component {
               <h2 className="text-white pe-md-3 pe-1">TV Shows</h2>
               <Dropdown>
                 <Dropdown.Toggle
+                  id="bottoneGeneri"
                   className="btn btn-dark border-white rounded-0"
                   type="button"
                   data-bs-toggle="dropdown"
@@ -20,10 +21,10 @@ class MyHome extends Component {
                 >
                   Genres
                 </Dropdown.Toggle>
-                <Dropdown.Menu className="rounded-0">
-                  <Dropdown.Item href="#">Action</Dropdown.Item>
-                  <Dropdown.Item href="#">Another action</Dropdown.Item>
-                  <Dropdown.Item href="#">Something else here</Dropdown.Item>
+                <Dropdown.Menu className="rounded-0" variant="dark">
+                  <Dropdown.Item href="#">Fantasy</Dropdown.Item>
+                  <Dropdown.Item href="#">Drama</Dropdown.Item>
+                  <Dropdown.Item href="#">Azione</Dropdown.Item>
                 </Dropdown.Menu>
               </Dropdown>
             </div>
@@ -32,12 +33,14 @@ class MyHome extends Component {
             <div className="d-flex justify-content-end align-items-center h-100">
               <div className="btn-group" role="group" aria-label="Basic example" data-bs-theme="dark">
                 <Button
+                  id="bottoneLaterale"
                   type="button"
                   className="btn btn-primary btn-darkgray border rounded-0 fs-5 btn-outline-light bg-dark"
                 >
                   <i className="bi bi-list"></i>
                 </Button>
                 <Button
+                  id="bottoneLaterale1"
                   type="button"
                   className="btn btn-primary btn-darkgray border rounded-0 fs-5 btn-outline-light bg-dark"
                 >

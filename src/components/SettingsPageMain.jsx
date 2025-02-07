@@ -12,7 +12,7 @@ class SettingsPageMain extends Component {
           <Row className="border-top border-secondary">
             <Col className="col-md-4 text-secondary">
               <h4>MEMBERSHIP & BILLING</h4>
-              <Button type="button" className="text-black bg-body-secondary rounded-2 shadow border-0">
+              <Button type="button" className="text-black bg-body-secondary shadow border-1 border-dark">
                 Cancel Membership
               </Button>
             </Col>
@@ -104,7 +104,7 @@ class SettingsPageMain extends Component {
                   <Image src="/src/assets/img/avatar.png" alt="FotoProfilo" width="50px" className="me-2" />
                   <p className="fw-bold">Vincent</p>
                 </Col>
-                <Col className="col-4 d-flex flex-column">
+                <Col className="col-4 d-flex flex-column align-items-end">
                   <a href="#">Manage Profiles</a>
                   <a href="#">Add profile email</a>
                 </Col>
