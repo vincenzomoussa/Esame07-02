@@ -1,0 +1,31 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css");
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #221f1f !important;
+}
+
+footer i:hover {
+  cursor: pointer;
+  color: #939fa8;
+}
+footer li a {
+  text-decoration: none;
+  color: #6c757d;
+}
+footer li a:hover,
+footer li a:visited {
+  text-decoration: underline;
+}
+
+.custom-text {
+  display: -webkit-box;
+  -webkit-box-direction: vertical;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  height: 3rem;
+}
