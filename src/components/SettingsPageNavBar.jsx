@@ -1,6 +1,6 @@
 import { Navbar, Container, Nav, NavDropdown, Row } from "react-bootstrap";
 
-const MyNavbar = function (props) {
+const SettingsPageNavBar = function (props) {
   function handlePage(page) {
     props.callbackDetailPage(page);
   }
@@ -72,4 +72,4 @@ const MyNavbar = function (props) {
     </header>
   );
 };
-export default MyNavbar;
+export default SettingsPageNavBar;

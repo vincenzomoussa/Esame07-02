@@ -43,3 +43,11 @@ footer li a:visited {
 .carousel-inner:has(img:hover) img:not(:hover) {
   opacity: 0.1;
 }
+
+.bg-settings {
+  background-color: #f3f3f3;
+}
+
+#cursorePointer {
+  cursor: pointer;
+}
