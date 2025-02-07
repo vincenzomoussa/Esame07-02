@@ -1,5 +1,7 @@
 import { Component } from "react";
+import MyGallery from "./MyGallery";
 import { Button, Col, Container, Dropdown, Row } from "react-bootstrap";
+import SearchCarousel from "./SearchCarousel";
 
 class MyHome extends Component {
   render() {
@@ -47,9 +49,14 @@ class MyHome extends Component {
         </Row>
         {/* SERVE PER CREARE UN CAROSELLO DINAMICO IN BASE ALLA SCRITTURA DI UNA PAROLA CHIAVE  
           FUNZIONA SOLO SE SI PREME IL TASTO BOTTONE SEARCH*/}
-
+        <SearchCarousel />
         {/* QUESTA SEZIONE AVRA' al suo interno le tre gallerie che riceveranno come props cosa cercare */}
-        <h3 className=" text-light">Fast and Furios!</h3>
+        <h3 className=" text-light">Fast & Furious!</h3>
+        <MyGallery research="Fast&Furious" />
+        <h3 className=" text-light">Harry Potter!</h3>
+        <MyGallery research="Harry Potter" />
+        <h3 className=" text-light">Toy Story!</h3>
+        <MyGallery research="Toy Story" />
       </Container>
     );
   }

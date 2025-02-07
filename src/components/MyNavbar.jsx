@@ -14,13 +14,15 @@ const MyNavbar = function () {
               <Nav className="w-100 justify-content-between">
                 <div className="d-lg-flex">
                   <Nav.Item>
-                    <Nav.Link aria-current="page">Home</Nav.Link>
+                    <Nav.Link aria-current="page" active>
+                      Home
+                    </Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
                     <Nav.Link>TV Shows</Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
-                    <Nav.Link active>Movies</Nav.Link>
+                    <Nav.Link>Movies</Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
                     <Nav.Link>Recently Added</Nav.Link>
@@ -32,7 +34,6 @@ const MyNavbar = function () {
                 <div className="d-lg-flex">
                   <Nav.Item>
                     <Container fluid className=" d-flex flex-column flex-lg-row">
-                      \
                       <Nav.Item>
                         <NavDropdown
                           title={<img src="/src/assets/img/avatar.png" alt="YourAvatar" width="30" height="30" />}
