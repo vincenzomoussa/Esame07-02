@@ -52,7 +52,7 @@ class MyHome extends Component {
         <SearchCarousel />
         {/* QUESTA SEZIONE AVRA' al suo interno le tre gallerie che riceveranno come props cosa cercare */}
         <h3 className=" text-light">Fast & Furious!</h3>
-        <MyGallery research="Fast&Furious" />
+        <MyGallery research="Fast" />
         <h3 className=" text-light">Harry Potter!</h3>
         <MyGallery research="Harry Potter" />
         <h3 className=" text-light">Toy Story!</h3>
