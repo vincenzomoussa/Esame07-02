@@ -12,7 +12,7 @@ const responsive = {
   },
   desktop: {
     breakpoint: { max: 1920, min: 1440 },
-    items: 5,
+    items: 6,
     slidesToSlide: 2,
   },
   desktopSmall: {
@@ -88,7 +88,7 @@ class MyGallery extends Component {
     return (
       <>
         {/* // QUI SARANNO RIUNITI I COMPONENTI DELLE CARTE GENERATE DALLA FETCH DI UNA PROPS PASSATA COME PARAMETRO DI 'RICERCA'  */}
-        <Container fluid className="py-3">
+        <Container fluid className="py-3 carousel-inner">
           {
             // LOADING HANDLER
             this.state.loading.isLoading && (

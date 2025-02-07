@@ -1,4 +1,5 @@
 import "bootstrap/dist/css/bootstrap.min.css";
+import "./index.css";
 import MyNavbar from "./components/MyNavbar";
 import MyFooter from "./components/MyFooter";
 import MyHome from "./components/MyHome";
@@ -9,9 +10,9 @@ function App() {
   return (
     <>
       <MyNavbar />
-      {/* <MyHome /> */}
+      <MyHome />
       {/* <ProfilePage /> */}
-      <SettingsPage />
+      {/* <SettingsPage /> */}
       <MyFooter />
     </>
   );

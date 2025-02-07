@@ -85,7 +85,7 @@ class ProfilePage extends Component {
                   </div>
                   <Form.Group className="py-4">
                     <Form.Label className="h3">Autoplay Controls:</Form.Label>
-                    <Form.Check // prettier-ignore
+                    <Form.Check
                       className="text-white"
                       type="switch"
                       label="Autoplay next episode in a series on all devices"

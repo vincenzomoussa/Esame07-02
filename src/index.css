@@ -29,3 +29,18 @@ footer li a:visited {
   overflow: hidden;
   height: 3rem;
 }
+
+#immagineFilm {
+  transition: all 0.2s !important;
+  object-fit: cover;
+  height: 400px;
+}
+
+#immagineFilm:hover {
+  z-index: 1 !important;
+  scale: 1.2 !important;
+}
+
+.carousel-inner:has(img:hover) img:not(:hover) {
+  opacity: 0.1;
+}
